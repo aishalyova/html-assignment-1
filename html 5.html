@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HTML Forms Example</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>Academic Information</legend>
+      <label>Degree:</label>
+      <select>
+        <option>Master of Business Administration</option>
+      </select>
+      <br>
+      <label>Student ID:</label>
+      <input type="text">
+      <br>
+      <label>Classes Attended</label>
+        <select>
+            <option>Geography</option>
+            <option>Mathematics</option>
+            <option>English</option>
+        </select>
+      <br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Personal Details</legend>
+        <label>First Name:</label>
+        <input type="text">
+            <br>
+        <label>Last Name:</label>
+        <input type="text">
+            <br>
+        <label>Gender:</label>
+        <input type="radio">
+        <label for="male">Male</label>
+        <input type="radio">
+        <label for="female">Female</label>
+            <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+    </fieldset>
+        <br>
+    <fieldset>
+        <textarea placeholder="TERMS AND CONDITIONS..."></textarea>
+    </fieldset>
+    <br>
+    <br>
+    <button type="submit">Send Form</button>
+    <button type="reset">Clear Form</button>
+
+  </form>
+</body>
+</html>
